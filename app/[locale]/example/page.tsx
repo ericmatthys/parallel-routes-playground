@@ -1,12 +1,11 @@
 import Link from "next/link";
-import styles from "./page.module.css";
 
 export default function Example() {
   return (
     <main>
       <h1>Example</h1>
       <p>
-        <Link href="/example/more">Show more</Link>
+        <Link href="/en/player/movie/foo">Show player</Link>
       </p>
     </main>
   );
